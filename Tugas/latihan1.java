@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class latihan1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input09 = new Scanner(System.in);
 
         int bil1 = 28, bil2 = 54, bil3 = 15;
 

@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class latihan3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input09 = new Scanner(System.in);
 
         String merk, kategori;
         int ukuran, harga;
 
         System.out.println("========================================");
         System.out.println("Masukkan merk (converse/skatcher/nike): ");
-        merk = sc.nextLine();
+        merk = input09.nextLine();
         System.out.println("----------------------------------------");
         System.out.println("Masukkan kategori");
         System.out.println("converse    = slip on/hightop");
@@ -17,7 +17,7 @@ public class latihan3 {
         System.out.println("nike        = kids/adult");
         System.out.println("----------------------------------------");
         System.out.print("Kategori = ");
-        kategori = sc.nextLine();
+        kategori = input09.nextLine();
         System.out.println("----------------------------------------");
         System.out.println("Masukkan ukuran");
         System.out.println("slip on    = 36 - 40");
@@ -28,7 +28,7 @@ public class latihan3 {
         System.out.println("adult      = 40 - 44");
         System.out.println("----------------------------------------");
         System.out.print("Ukuran     = ");
-        ukuran = sc.nextInt();
+        ukuran = input09.nextInt();
         System.out.println("========================================");
 
         if (merk.equals("converse")){

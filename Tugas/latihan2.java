@@ -2,18 +2,18 @@ import java.util.Scanner;
 
 public class latihan2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input09 = new Scanner(System.in);
         
         String jenis;
         int jumlah, harga;
         double hargaDiskon, diskon, jumlahDiskon;
         
         System.out.println("Masukkan jenis buku: ");
-        jenis = sc.nextLine();
+        jenis = input09.nextLine();
         System.out.println("Masukkan jumlah buku: ");
-        jumlah = sc.nextInt();
+        jumlah = input09.nextInt();
         System.out.println("Masukkan harga buku: ");
-        harga = sc.nextInt();
+        harga = input09.nextInt();
         
         if (jenis.equals("kamus")){
             diskon = (1.0 - 0.1) * jumlah * harga;
